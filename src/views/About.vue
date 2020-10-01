@@ -15,6 +15,5 @@
 .left{
   margin-left:10px;
   margin-top:0px;
-
 }
 </style>
