@@ -42,12 +42,12 @@
         <div class="mytext">
           Home
           <p class="heading">Explore</p>
-          <p style="margin-top:40px;">Notifications</p>
-          <p style="margin-top:40px;">Messages</p>
-          <p style="margin-top:40px;">Bookmarks</p>
-          <p style="margin-top:40px;">Lists</p>
-          <p style="margin-top:40px;">Profile</p>
-          <p style="margin-top:40px;">More</p>
+          <p class="heading">Notifications</p>
+          <p class="heading">Messages</p>
+          <p class="heading">Bookmarks</p>
+          <p class="heading">Lists</p>
+          <p class="heading">Profile</p>
+          <p class="heading">More</p>
         </div>
 
         <b-button pill variant="primary" class="twitter_button">Tweet</b-button>
