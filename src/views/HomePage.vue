@@ -72,9 +72,10 @@
 
       <div class="whatshappening">
         <div class="whatshappeningcontent" >
-
-          <input type="text" placeholder="What's Happening?" class="whc">
-
+          <!-- <i class="fas fa-user-circle" style="font-size:40px;margin-left:-50px;margin-top:15px;" ></i> -->
+          <div><i class="fas fa-user-circle" style="font-size:49px;margin-left:-50px;" ></i></div>
+          <!-- <i class="fas fa-user-circle" style="margin-left:-10px;"></i> -->
+          <div style="margin-top:-50px;"><input type="text" placeholder="What's Happening?" class="whc" ></div>
 
         </div>
       </div>
@@ -90,14 +91,12 @@
   font-size: 20px;
   font-weight: bold;
   line-height: 1;
-
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 30px;
   position: absolute;
   margin-left: 50px;
   margin-top: 55px;
 }
-
 .leftside_nav {
   position: fixed;
   width: 300px;
@@ -183,7 +182,6 @@
   height:53px;
   outline:none;
   background-color: rgba(255,255,255,0.1);
-
 }
 .contentarea{
 margin-left:300px;
@@ -193,14 +191,11 @@ margin-left:300px;
   position:fixed;
   background-color: white;
   margin-top:73px;
-
 }
 .whatshappening{
    width:600px;
   height:117px;
   border:1px solid;
-
-
 }
 .whatshappeningcontent{
   margin-left: 55px;
@@ -208,12 +203,11 @@ margin-left:300px;
     font-size:20px;
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 .whc{
    padding:10px;
    height:48.94px;
    width:505px;
-
+   border:none;
 }
 </style>
