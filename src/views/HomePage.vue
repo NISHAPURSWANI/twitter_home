@@ -49,7 +49,7 @@
           <p class="heading">Profile</p>
           <p class="heading">More</p>
         </div>
- 
+
         <b-button pill variant="primary" class="twitter_button">Tweet</b-button>
       </div>
     </div>
@@ -72,7 +72,7 @@
     </div>
     <div class="contentarea">
       <i class="far-fa user" style="height:49px; width:49px;"></i>
- 
+
       <div class="whatshappening">
         <div class="whatshappeningcontent">
           <!-- <i class="fas fa-user-circle" style="font-size:40px;margin-left:-50px;margin-top:15px;" ></i> -->
@@ -97,143 +97,146 @@
           </div>
           <div class="feedarea">
             <div class="mycards">
-            <div class="card1">
-              <img
-                alt="Vue logo"
-                src="../assets/toi.png"
-                style="height:49px; width:49px; border-radius:100%; margin-left:-40px;"
-              />
- 
-              The Times of India
-              <i
-                class="fas fa-check-circle"
-                style="color: rgba(21, 161, 242, 1);"
-              ></i
-              ><span style="color:gray; font-size:15px;"> @times of india</span>
-              <p class="cardtext">
-                adds 14,348 #Covid19 cases, taking state's tally to 14,30,861;
-                toll mounts to 37,758 with 278 deaths, reports PTI quoting state
-                health department.
-              </p>
-              <img
-                alt="Vue logo"
-                src="../assets/refimg.png"
-                style="height:235px; width:507px; border-radius:10px;border:1px solid; margin-left:20px; "
-              />
- 
-              <p style="font-weight:lighter; margin-left:30px; font-size:20px;">
-                8:26 PM · Oct 3, 2020·TweetDeck
-              </p>
-              <p class="iconsonfeed" style="margin-left:15px;">
-                <i class="far fa-comment"></i>
-                <i class="fas fa-retweet" style="margin-left:100px;"></i>
-                <i class="far fa-heart" style="margin-left:100px;"></i>
-                <i class="far fa-share-square" style="margin-left:100px;"></i>
-              </p>
-            </div>
-            </div>
-              <p class="borderbottom"></p>
-            <!-------------->
-            <div class="mycards">
-            <div class="card1">
-              <img
-                alt="Vue logo"
-                src="../assets/toi.png"
-                style="height:49px; width:49px; border-radius:100%; margin-left:-40px;"
-              />
- 
-              The Times of India
- 
-              <i
-                class="fas fa-check-circle"
-                style="color: rgba(21, 161, 242, 1);"
-              ></i
-              ><span style="color:gray; font-size:15px;"> @times of india</span>
-              <img
-                alt="Vue logo"
-                src="../assets/refimg.png"
-                style="height:235px; width:507px; border-radius:10px;border:1px solid; margin-left:20px; "
-              />
-              <p class="cardtext" style="margin-top:5px;">
-                adds 14,348 #Covid19 cases, taking state's tally to 14,30,861;
-                toll mounts to 37,758 with 278 deaths, reports PTI quoting state
-                health department. <br />8:26 PM · Oct 3, 2020·TweetDeck
-              </p>
-              <p class="iconsonfeed">
-                <i class="far fa-comment" style="margin-left:15px;"></i>
-                <i class="fas fa-retweet" style="margin-left:100px;"></i>
-                <i class="far fa-heart" style="margin-left:100px;"></i>
-                <i class="far fa-share-square" style="margin-left:100px;"></i>
-              </p>
-                          </div>
+              <div class="card1">
+                <img
+                  alt="Vue logo"
+                  src="../assets/toi.png"
+                  style="height:49px; width:49px; border-radius:100%; margin-left:-40px;"
+                />
 
-            </div>
-              <p class="borderbottom"></p>
-                          <div class="mycards">
+                The Times of India
+                <i
+                  class="fas fa-check-circle"
+                  style="color: rgba(21, 161, 242, 1);"
+                ></i
+                ><span style="color:gray; font-size:15px;">
+                  @times of india</span
+                >
+                <p class="cardtext">
+                  adds 14,348 #Covid19 cases, taking state's tally to 14,30,861;
+                  toll mounts to 37,758 with 278 deaths, reports PTI quoting
+                  state health department.
+                </p>
+                <img
+                  alt="Vue logo"
+                  src="../assets/refimg.png"
+                  style="height:235px; width:507px; border-radius:10px;border:1px solid; margin-left:20px; "
+                />
 
-            <div class="card1">
-              <img
-                alt="Vue logo"
-                src="../assets/toi.png"
-                style="height:49px; width:49px; border-radius:100%; margin-left:-40px;"
-              />
- 
-              The Times of India
-              <i
-                class="fas fa-check-circle"
-                style="color: rgba(21, 161, 242, 1);"
-              ></i
-              ><span style="color:gray; font-size:15px;"> @times of india</span>
-              <p class="cardtext">
-                adds 14,348 #Covid19 cases, taking state's tally to 14,30,861;
-                toll mounts to 37,758 with 278 deaths, reports PTI quoting state
-                health department. <br />8:26 PM · Oct 3, 2020·TweetDeck
-              </p>
-              <p class="iconsonfeed">
-                <i class="far fa-comment" style="margin-left:15px;"></i>
-                <i class="fas fa-retweet" style="margin-left:100px;"></i>
-                <i class="far fa-heart" style="margin-left:100px;"></i>
-                <i class="far fa-share-square" style="margin-left:100px;"></i>
-              </p>
-                          </div>
-
-                          </div>
-
-              <p class="borderbottom"></p>
-              <div class="mycards">
-            <div class="card1">
-              <img
-                alt="Vue logo"
-                src="../assets/toi.png"
-                style="height:49px; width:49px; border-radius:100%; margin-left:-40px;"
-              />
- 
-              The Times of India
-              <i
-                class="fas fa-check-circle"
-                style="color: rgba(21, 161, 242, 1);"
-              ></i
-              ><span style="color:gray; font-size:15px;"> @times of india</span>
-              <p class="cardtext">
-                adds 14,348 #Covid19 cases, taking state's tally to 14,30,861;
-                toll mounts to 37,758 with 278 deaths, reports PTI quoting state
-                health department. <br />8:26 PM · Oct 3, 2020·TweetDeck
-              </p>
-              <p class="iconsonfeed">
-                <i class="far fa-comment" style="margin-left:15px;"></i>
-                <i class="fas fa-retweet" style="margin-left:100px;"></i>
-                <i class="far fa-heart" style="margin-left:100px;"></i>
-                <i class="far fa-share-square" style="margin-left:100px;"></i>
-              </p>
-            </div>
+                <p
+                  style="font-weight:lighter; margin-left:30px; font-size:20px;"
+                >
+                  8:26 PM · Oct 3, 2020·TweetDeck
+                </p>
+                <p class="iconsonfeed" style="margin-left:15px;">
+                  <i class="far fa-comment"></i>
+                  <i class="fas fa-retweet" style="margin-left:100px;"></i>
+                  <i class="far fa-heart" style="margin-left:100px;"></i>
+                  <i class="far fa-share-square" style="margin-left:100px;"></i>
+                </p>
               </div>
- 
-            <!-------------->
+            </div>
+            <p class="borderbottom"></p>
+            <div class="mycards">
+              <div class="card1">
+                <img
+                  alt="Vue logo"
+                  src="../assets/toi.png"
+                  style="height:49px; width:49px; border-radius:100%; margin-left:-40px;"
+                />
+
+                The Times of India
+
+                <i
+                  class="fas fa-check-circle"
+                  style="color: rgba(21, 161, 242, 1);"
+                ></i
+                ><span style="color:gray; font-size:15px;">
+                  @times of india</span
+                >
+                <img
+                  alt="Vue logo"
+                  src="../assets/refimg.png"
+                  style="height:235px; width:507px; border-radius:10px;border:1px solid; margin-left:20px; "
+                />
+                <p class="cardtext" style="margin-top:5px;">
+                  adds 14,348 #Covid19 cases, taking state's tally to 14,30,861;
+                  toll mounts to 37,758 with 278 deaths, reports PTI quoting
+                  state health department. <br />8:26 PM · Oct 3, 2020·TweetDeck
+                </p>
+                <p class="iconsonfeed">
+                  <i class="far fa-comment" style="margin-left:15px;"></i>
+                  <i class="fas fa-retweet" style="margin-left:100px;"></i>
+                  <i class="far fa-heart" style="margin-left:100px;"></i>
+                  <i class="far fa-share-square" style="margin-left:100px;"></i>
+                </p>
+              </div>
+            </div>
+            <p class="borderbottom"></p>
+            <div class="mycards">
+              <div class="card1">
+                <img
+                  alt="Vue logo"
+                  src="../assets/toi.png"
+                  style="height:49px; width:49px; border-radius:100%; margin-left:-40px;"
+                />
+
+                The Times of India
+                <i
+                  class="fas fa-check-circle"
+                  style="color: rgba(21, 161, 242, 1);"
+                ></i
+                ><span style="color:gray; font-size:15px;">
+                  @times of india</span
+                >
+                <p class="cardtext">
+                  adds 14,348 #Covid19 cases, taking state's tally to 14,30,861;
+                  toll mounts to 37,758 with 278 deaths, reports PTI quoting
+                  state health department. <br />8:26 PM · Oct 3, 2020·TweetDeck
+                </p>
+                <p class="iconsonfeed">
+                  <i class="far fa-comment" style="margin-left:15px;"></i>
+                  <i class="fas fa-retweet" style="margin-left:100px;"></i>
+                  <i class="far fa-heart" style="margin-left:100px;"></i>
+                  <i class="far fa-share-square" style="margin-left:100px;"></i>
+                </p>
+              </div>
+            </div>
+
+            <p class="borderbottom"></p>
+            <div class="mycards">
+              <div class="card1">
+                <img
+                  alt="Vue logo"
+                  src="../assets/toi.png"
+                  style="height:49px; width:49px; border-radius:100%; margin-left:-40px;"
+                />
+
+                The Times of India
+                <i
+                  class="fas fa-check-circle"
+                  style="color: rgba(21, 161, 242, 1);"
+                ></i
+                ><span style="color:gray; font-size:15px;">
+                  @times of india</span
+                >
+                <p class="cardtext">
+                  adds 14,348 #Covid19 cases, taking state's tally to 14,30,861;
+                  toll mounts to 37,758 with 278 deaths, reports PTI quoting
+                  state health department. <br />8:26 PM · Oct 3, 2020·TweetDeck
+                </p>
+                <p class="iconsonfeed">
+                  <i class="far fa-comment" style="margin-left:15px;"></i>
+                  <i class="fas fa-retweet" style="margin-left:100px;"></i>
+                  <i class="far fa-heart" style="margin-left:100px;"></i>
+                  <i class="far fa-share-square" style="margin-left:100px;"></i>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="lists">
-        <!--------------->
         <div class="list">
           <p class="listheading">What's happening</p>
           <img
@@ -259,7 +262,7 @@
             <p class="boldtext">IPL: Delhi wins by 18 runs</p>
             <p style="margin-top:-15px;">#Trending</p>
           </div>
- 
+
           <!-- </p> -->
           <div class="listtext">
             <p
@@ -281,8 +284,6 @@
           </div>
           <p class="showmore">Show more</p>
         </div>
-        <!--------------------------------------->
-        <!----------------------------->
         <div class="followlist">
           <div class="followlistheading">Who to follow</div>
           <div class="followlisttext">
@@ -291,60 +292,57 @@
               src="../assets/upsave.png"
               style="height:49px; width:49px; border-radius:100%; margin-top:10px;"
             />
-            <span class="uptext"> upGrad <i
+            <span class="uptext">
+              upGrad
+              <i
                 class="fas fa-check-circle"
                 style="color: rgba(21, 161, 242, 1);"
               ></i
-              ></span>
-              <!-- <span class="uptext"> @upGrad_edu</span> -->
+            ></span>
             <b-button pill variant="outline-primary" class="followbtn"
               ><span class="followtxt">Follow</span></b-button
             >
           </div>
           <div class="followlisttext">
-             <img
+            <img
               alt="Vue logo"
               src="../assets/upsave.png"
               style="height:49px; width:49px; border-radius:100%; margin-top:10px;"
             />
-                        <span class="uptext"> upGrad <i
+            <span class="uptext">
+              upGrad
+              <i
                 class="fas fa-check-circle"
                 style="color: rgba(21, 161, 242, 1);"
               ></i
-              ></span>
- 
+            ></span>
+
             <b-button pill variant="outline-primary" class="followbtn"
               ><span class="followtxt">Follow</span></b-button
             >
           </div>
           <div class="followlisttext">
-             <img
+            <img
               alt="Vue logo"
               src="../assets/upsave.png"
               style="height:49px; width:49px; border-radius:100%; margin-top:10px;"
             />
-                        <span class="uptext"> upGrad <i
+            <span class="uptext">
+              upGrad
+              <i
                 class="fas fa-check-circle"
                 style="color: rgba(21, 161, 242, 1);"
               ></i
-              ></span>
- 
+            ></span>
+
             <b-button pill variant="outline-primary" class="followbtn"
               ><span class="followtxt">Follow</span></b-button
             >
           </div>
- 
-          <!-- </p> -->
- 
-          <!-- </div> -->
- 
-          <!-- </div> -->
- 
+
           <p class="followshowmore">Show more</p>
         </div>
-        <!----------------------------->
       </div>
-      <!----->
     </div>
   </div>
 </template>
@@ -410,9 +408,7 @@
 }
 .navbar {
   margin-left: 300px;
-  /* height: 50; */
   width: auto;
-  /* border:1px solid black; */
   position: fixed;
   background-color: white;
   z-index: 1;
@@ -420,7 +416,7 @@
 .home {
   width: 600px;
   height: 53px;
-  border:1px solid rgba(45, 50, 58, 0.4);
+  border: 1px solid rgba(45, 50, 58, 0.4);
   margin-left: -16px;
   margin-top: -10px;
   background-color: white;
@@ -455,7 +451,6 @@
   margin-left: 300px;
   height: auto;
   width: auto;
-  /* border:1px solid black; */
   position: fixed;
   background-color: white;
   margin-top: 70px;
@@ -464,8 +459,7 @@
 .whatshappening {
   width: 600px;
   height: 117px;
-          border:1px solid rgba(45, 50, 58, 0.4);
-  /* position:absolute; */
+  border: 1px solid rgba(45, 50, 58, 0.4);
 }
 .whatshappeningcontent {
   margin-left: 55px;
@@ -488,9 +482,6 @@
   font-weight: 10;
 }
 .tweet_button {
-  /* margin-top: -32px; */
-  /* width: 250px; */
-  /* height: 49px; */
   display: flex;
   float: right;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -505,89 +496,64 @@
 }
 .list {
   position: absolute;
-  /* margin-left: 637px; */
   width: 350px;
   height: auto;
   border-radius: 15px;
-          border:1px solid rgba(45, 50, 58, 0.4);
+  border: 1px solid rgba(45, 50, 58, 0.4);
   margin-top: -15px;
-  /* margin-top: 90px; */
   background-color: rgb(245, 248, 250);
 }
 .listheading {
-  border-bottom: 1px solid rgba(45, 50, 58, 0.4);;
+  border-bottom: 1px solid rgba(45, 50, 58, 0.4);
 
-  /* height: 48px; */
   padding-top: 12.1px;
   padding-bottom: 12.1px;
   padding-left: 15px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   font-weight: 900;
-  /* background-color: rgba(00, 0, 0,1); */
-  /* border:none; */
-  /* background-color:rgba(204,214,221,1) */
 }
 .listtext {
   height: 89px;
-  border-bottom: 1px solid  rgba(45, 50, 58, 0.4);;;
+  border-bottom: 1px solid rgba(45, 50, 58, 0.4);
   padding-left: 15px;
   font-size: 18px;
 }
 .showmore {
   height: 49px;
-  /* padding-top: 15px; */
   padding-left: 15px;
   color: rgba(21, 161, 242, 1);
   font-weight: 400;
   font-size: 18px;
   padding-top: 15px;
 }
-/* .followshowmore {
-  height: 35px;
-  padding-top: 15px;
-  padding-left: 15px;
-} */
-/* .followlist{
-  margin-top: 35px;;
-} */
 .card1 {
   height: auto;
   width: 500px;
-  /* border:1px solid; */
-  /* margin-top:15px; */
   margin-left: 57px;
   padding-top: 5px;
-  /* font-size: 15px; */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  /* font-weight: lighter; */
 }
 .cardtext {
-  /* margin-top:15px; */
-  /* margin-top:5px; */
   font-size: 18px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: lighter;
-  /* color: grey; */
   margin-left: 20px;
   margin-top: -15px;
 }
 .feedarea {
   height: auto;
-  /* border: 1px solid; */
   width: 600px;
   margin-left: -65px;
   margin-top: 25px;
 }
 .iconsonfeed {
   margin-top: -15px;
-  /* border-bottom: 1px solid; */
 }
 .borderbottom {
-  border-bottom: 0px solid rgba(45, 50, 58, 0.4);;
+  border-bottom: 0px solid rgba(45, 50, 58, 0.4);
 
   width: 600px;
-  /* margin-left: -58px; */
 }
 .boldtext {
   font-weight: bold;
@@ -595,40 +561,32 @@
 }
 .followlist {
   position: absolute;
-  /* margin-left: 637px; */
   width: 350px;
   height: auto;
   border-radius: 15px;
-        border:1px solid rgba(45, 50, 58, 0.4);
-  /* margin-top: -15px; */
-  /* margin-top: 90px; */
+  border: 1px solid rgba(45, 50, 58, 0.4);
   margin-top: 590px;
   background-color: rgb(245, 248, 250);
 }
 .followlistheading {
-  border-bottom: 1px solid rgba(45, 50, 58, 0.4);;
+  border-bottom: 1px solid rgba(45, 50, 58, 0.4);
 
-  /* height: 48px; */
   padding-top: 12.1px;
   padding-bottom: 12.1px;
   padding-left: 15px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   font-weight: 900;
-  /* background-color: rgba(00, 0, 0,1); */
-  /* border:none; */
-  /* background-color:rgba(204,214,221,1) */
 }
 .followlisttext {
   height: 70px;
-  border-bottom: 1px solid rgba(45, 50, 58, 0.4);;
+  border-bottom: 1px solid rgba(45, 50, 58, 0.4);
 
   padding-left: 15px;
   font-size: 18px;
 }
 .followshowmore {
   height: 35px;
-  /* padding-top: 15px; */
   padding-left: 15px;
   color: rgba(21, 161, 242, 1);
   font-weight: 400;
@@ -641,57 +599,57 @@
   display: flex;
   float: right;
   margin-right: 15px;
-  /* padding-top:15px; */
   margin-top: 20px;
 }
 .followtxt {
-  /* padding-top:5px; */
-  /* padding-left: 5px; */
-  /* padding-bottom:5px; */
   margin-top: -5px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   font-size: 18px;
 }
-.uptext{
+.uptext {
   font-weight: bold;
-  margin-left:5px;
+  margin-left: 5px;
 }
-.mycards{
-  /* height:auto; */
+.mycards {
   width: 600px;
-  border:1px solid rgba(45, 50, 58, 0.4);
-  margin-top:-20px;
-
-  /* margin-left:-50px; */
-  /* padding:15px; */
+  border: 1px solid rgba(45, 50, 58, 0.4);
+  margin-top: -20px;
 }
-.mycards:hover{
+.mycards:hover {
   background-color: rgba(45, 50, 58, 0.1);
 }
-.listheading:hover{
-    background-color: rgba(45, 50, 58, 0.1);
+.listheading:hover {
+  background-color: rgba(45, 50, 58, 0.1);
+}
+.followlistheading:hover {
+  background-color: rgba(45, 50, 58, 0.1);
+}
+.listtext:hover {
+  background-color: rgba(45, 50, 58, 0.1);
+}
+.followlisttext:hover {
+  background-color: rgba(45, 50, 58, 0.1);
+}
+.showmore:hover {
+  background-color: rgba(45, 50, 58, 0.1);
+}
+.followshowmore:hover {
+  background-color: rgba(45, 50, 58, 0.1);
+}
+.twitter_button:hover{
+    
+    
+  background-color: rgb(3, 140, 252);
 
 }
-.followlistheading:hover{
-    background-color: rgba(45, 50, 58, 0.1);
+.followbtn:hover{
+    background-color: rgb(193, 220, 247);
+
 
 }
-.listtext:hover{
-    background-color: rgba(45, 50, 58, 0.1);
-
-}
-.followlisttext:hover{
-    background-color: rgba(45, 50, 58, 0.1);
-
-}
-.showmore:hover{
-    background-color: rgba(45, 50, 58, 0.1);
-
-}
-.followshowmore:hover{
-    background-color: rgba(45, 50, 58, 0.1);
-
+.followbtn:hover{
+  color:rgb(3, 140, 252);
 }
 </style>
  
