@@ -1,52 +1,58 @@
 <template>
   <div class="container">
     <div class="left">
-      <button class="tbtn">
+      <!-- <button class="tbtn"> -->
+        <!-- <b-button pill variant="outline-danger" class="t_button">
         <i
           class="fab fa-twitter"
           style="font-size:50px; padding-top:6px; padding-bottom:4px; color:rgba(21,161,242,1); margin-left:-100px;"
         >
-        </i>
-      </button>
-      <b-button pill variant="primary" class="t_button">
+        </i><span class="textbtn">Home</span>
+        </b-button> -->
+      <!-- </button> -->
+            <b-button pill variant="outline-primary" class="t_but">
+        <i class="fab fa-twitter" style="font-size:40px; color:rgba(21, 161, 242, 1); "></i
+        ></b-button
+      >
+      <b-button pill variant="outline-primary" class="t_button">
         <i class="fas fa-home" style="font-size:30px; "></i
         ><span class="textbtn">Home</span></b-button
       >
-      <b-button pill variant="primary" class="t_button">
+      <b-button pill variant="outline-primary" class="t_button">
         <i class="fas fa-hashtag" style="font-size:30px; "></i
         ><span class="textbtn">Explore</span></b-button
       >
       <b-button
         pill
-        variant="primary"
+        variant="outline-primary"
         class="t_button"
         style="width:180px;margin-left:30px;"
       >
         <i class="far fa-bell" style="font-size:30px; "></i
         ><span class="textbtn">Notifications</span></b-button
       >
-      <b-button pill variant="primary" class="t_button">
+      <b-button pill variant="outline-primary" class="t_button">
         <i class="far fa-envelope" style="font-size:30px; "></i
         ><span class="textbtn">Messages</span></b-button
       >
       <b-button
         pill
-        variant="primary"
+        variant="outline-primary"
         class="t_button"
         style="width:180px;margin-left:30px;"
       >
         <i class="far fa-bookmark" style="font-size:30px; "></i
         ><span class="textbtn">Bookmarks</span></b-button
       >
-      <b-button pill variant="primary" class="t_button">
-        <i class="fas fa-list-alt" style="font-size:30px; "></i
+      <b-button pill variant="outline-primary" class="t_button">
+        <i class="far fa-list-alt" style="font-size:30px; "></i
         ><span class="textbtn">Lists</span></b-button
       >
-      <b-button pill variant="primary" class="t_button">
-        <i class="fas fa-user" style="font-size:30px; "></i
+      <b-button pill variant="outline-primary" class="t_button">
+        <i class="far fa-user" style="font-size:30px; "></i
         ><span class="textbtn">Profile</span></b-button
       >
-      <b-button pill variant="primary" class="t_button">
+      <b-button pill variant="outline-primary" class="t_button">
         <i class="fas fa-ellipsis-h" style="font-size:30px; "></i
         ><span class="textbtn">More</span></b-button
       >
@@ -58,12 +64,14 @@
         <div class="hometext">
           Home
           <span class="star"
-            ><i
+            >
+          <i
               class="far fa-star"
               style="margin-top:8px;
-  margin-bottom: 14.1px; font-size:20px;"
+  margin-bottom: 14.1px; font-size:20px;color:rgba(21, 161, 242, 1);"
             ></i
-          ></span>
+          >
+          </span>
         </div>
       </div>
     </div>
@@ -81,10 +89,15 @@
               <input type="text" placeholder="What's happening?" class="whc" />
             </div>
             <div class="whci">
-              <i class="far fa-image" style="margin-top:10px;"></i>
+
+              <!-- <i class="far fa-image" style="margin-top:10px;"></i>
               <i class="far fa-calendar-alt" style="margin-left:10px;"></i>
               <i class="fas fa-chart-bar" style="margin-left:10px;"></i>
-              <i class="far fa-smile" style="margin-left:10px;"></i>
+              <i class="far fa-smile" style="margin-left:10px;"></i> -->
+              <button class="toi_but"><i class="far fa-image" style="margin-top:10px;color:rgba(21, 161, 242, 1);font-weight:lighter"></i></button>
+              <button class="toi_but"><i class="far fa-calendar-alt" style="margin-top:10px;color:rgba(21, 161, 242, 1);font-weight:lighter"></i></button>
+              <button class="toi_but"><i class="far fa-chart-bar" style="margin-top:10px;color:rgba(21, 161, 242, 1);font-weight:lighter"></i></button>
+              <button class="toi_but"><i class="far fa-smile" style="margin-top:10px;color:rgba(21, 161, 242, 1);font-weight:lighter"></i></button>
               <b-button pill variant="primary" class="tweet_button"
                 >Tweet</b-button
               >
@@ -124,15 +137,15 @@
                 />
 
                 <p
-                  style="font-weight:lighter; margin-left:30px; font-size:20px;"
+                  style="font-weight:lighter; margin-left:30px; font-size:15px;"
                 >
                   8:26 PM · Oct 3, 2020·TweetDeck
                 </p>
                 <p class="iconsonfeed" style="margin-left:15px;">
-                  <i class="far fa-comment"></i>
-                  <i class="fas fa-retweet" style="margin-left:100px;"></i>
-                  <i class="far fa-heart" style="margin-left:100px;"></i>
-                  <i class="far fa-share-square" style="margin-left:100px;"></i>
+                  <i class="far fa-comment" style="margin-left:20px;"></i> 1
+                  <i class="fas fa-retweet" style="margin-left:100px; font-weight:lighter;"></i> 2
+                  <i class="far fa-heart" style="margin-left:100px;"></i> 3
+                  <i class="far fa-share-square" style="margin-left:90px;"></i> 4
                 </p>
               </div>
             </div>
@@ -161,18 +174,19 @@
                   </p>
 
                   <p
-                    style="font-weight:lighter; margin-left:30px; font-size:20px;"
+                    style="font-weight:lighter; margin-left:30px; font-size:15px;"
                   >
                     8:26 PM · Oct 3, 2020·TweetDeck
                   </p>
                   <p class="iconsonfeed" style="margin-left:15px;">
-                    <i class="far fa-comment"></i>
-                    <i class="fas fa-retweet" style="margin-left:100px;"></i>
-                    <i class="far fa-heart" style="margin-left:100px;"></i>
+
+                    <i class="far fa-comment" style="margin-left:20px;"></i> 55 
+                    <i class="fas fa-retweet" style="margin-left:100px; font-weight:lighter;"></i> 55
+                    <i class="far fa-heart" style="margin-left:90px;"></i> 25
                     <i
                       class="far fa-share-square"
-                      style="margin-left:100px;"
-                    ></i>
+                      style="margin-left:90px;"
+                    ></i> 20
                   </p>
                 </div>
               </div>
@@ -207,18 +221,18 @@
                     />
 
                     <p
-                      style="font-weight:lighter; margin-left:30px; font-size:20px;"
+                      style="font-weight:lighter; margin-left:30px; font-size:15px;"
                     >
                       8:26 PM · Oct 3, 2020·TweetDeck
                     </p>
                     <p class="iconsonfeed" style="margin-left:15px;">
-                      <i class="far fa-comment"></i>
-                      <i class="fas fa-retweet" style="margin-left:100px;"></i>
-                      <i class="far fa-heart" style="margin-left:100px;"></i>
+                      <i class="far fa-comment" style="margin-left:20px; font-weight:lighter;"></i> 20 
+                      <i class="fas fa-retweet" style="margin-left:100px;"></i> 20 
+                      <i class="far fa-heart" style="margin-left:100px;"></i> 2
                       <i
                         class="far fa-share-square"
-                        style="margin-left:100px;"
-                      ></i>
+                        style="margin-left:90px;"
+                      ></i> 22
                     </p>
                   </div>
                 </div>
@@ -254,36 +268,33 @@
                       </p>
 
                       <p
-                        style="font-weight:lighter; margin-left:30px; font-size:20px;"
+                        style="font-weight:lighter; margin-left:30px; font-size:15px;"
                       >
                         8:26 PM · Oct 3, 2020·TweetDeck
                       </p>
                       <p class="iconsonfeed" style="margin-left:15px;">
-                        <i class="far fa-comment"></i>
+                        <i class="far fa-comment" style="margin-left:20px; "></i> 25 
                         <i
                           class="fas fa-retweet"
-                          style="margin-left:100px;"
-                        ></i>
-                        <i class="far fa-heart" style="margin-left:100px;"></i>
+                          style="margin-left:100px; font-weight:lighter;"
+                        ></i> 22 
+                        <i class="far fa-heart" style="margin-left:100px;"></i> 25
                         <i
                           class="far fa-share-square"
-                          style="margin-left:100px;"
-                        ></i>
+                          style="margin-left:90px;"
+                        ></i> 25
                       </p>
                     </div>
                   </div>
-                  <!-------------->
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!----------------------------->
         <div></div>
       </div>
       <div class="ssone">
         <div class="ss">
-          <!-- <div style="position:fixed;z-index:1;"> -->
           <i
             class="fas fa-search"
             style="font-size:25px;font-weight:lighter;color:rgba(21, 161, 242, 1); margin-top:10px;"
@@ -337,7 +348,7 @@
               </p>
               <p class="boldtext">Covid-19 in India</p>
             </div>
-            <p class="showmore">Show more</p>
+            <div class="showmore">Show more</div>
           </div>
         </div>
         <div class="mylisttwo">
@@ -397,7 +408,7 @@
               >
             </div>
 
-            <p class="followshowmore">Show more</p>
+            <div class="followshowmore">Show more</div>
           </div>
         </div>
       </div>
@@ -585,6 +596,7 @@
   margin-left: 57px;
   padding-top: 5px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:bolder;
 }
 .cardtext {
   font-size: 18px;
@@ -638,7 +650,7 @@
   font-size: 18px;
 }
 .followshowmore {
-  height: 30px;
+  height: 49px;
   padding-left: 15px;
   color: rgba(21, 161, 242, 1);
   font-weight: 400;
@@ -689,9 +701,9 @@
 .followshowmore:hover {
   background-color: rgba(45, 50, 58, 0.1);
 }
-.twitter_button:hover {
+/* .twitter_button:hover {
   background-color: rgb(3, 140, 252);
-}
+} */
 .followbtn:hover {
   background-color: rgb(193, 220, 247);
 }
@@ -769,8 +781,55 @@
   padding-left: 15px;
   font-size: 18px;
 }
-.btn-primary:hover {
-  background-color: rgb(245, 248, 250);
+.btn-outline-primary:hover {
+  /* background-color: rgb(245, 248, 250); */
+   background-color: rgb(240, 245, 245);
   color: rgba(21, 161, 242, 1);
 }
+.btn-primary:hover{
+  background-color: rgb(18, 133, 199);
+;
+}
+.t_but{
+  margin-left:-100px;
+  /*  display: flex;
+  float: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  /* font-size: 50px; */
+  /* font-weight: bold;
+  background-color: rgba(255, 255, 255);
+  border: 0px;
+  height:auto;
+  width:auto; */
+  /* color: black; */
+  /* padding-top:5px; */
+  border:none;
+}
+.toi_but{
+  border-radius: 100%;
+  margin-top:-20px;
+  border:none;
+  background-color: white;
+}
+.toi_but:hover{
+     background-color: rgb(240, 245, 245);
+  color: rgba(21, 161, 242, 1);
+
+}
+/* .to_but{
+    border-radius: 100%;
+  border:none;
+  background-color: white;
+
+}
+.to_but:hover{
+     background-color: rgb(240, 245, 245);
+  color: rgba(21, 161, 242, 1);
+  height:30px;
+  width:30px;
+  margin-top:-10px;
+
+} */
+
+
 </style>
