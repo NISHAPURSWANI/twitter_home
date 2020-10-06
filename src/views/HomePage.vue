@@ -1,19 +1,12 @@
 <template>
   <div class="container">
     <div class="left">
-      <!-- <button class="tbtn"> -->
-        <!-- <b-button pill variant="outline-danger" class="t_button">
+      <b-button pill variant="outline-primary" class="t_but">
         <i
           class="fab fa-twitter"
-          style="font-size:50px; padding-top:6px; padding-bottom:4px; color:rgba(21,161,242,1); margin-left:-100px;"
-        >
-        </i><span class="textbtn">Home</span>
-        </b-button> -->
-      <!-- </button> -->
-            <b-button pill variant="outline-primary" class="t_but">
-        <i class="fab fa-twitter" style="font-size:40px; color:rgba(21, 161, 242, 1); "></i
-        ></b-button
-      >
+          style="font-size:40px; color:rgba(21, 161, 242, 1); "
+        ></i
+      ></b-button>
       <b-button pill variant="outline-primary" class="t_button">
         <i class="fas fa-home" style="font-size:30px; "></i
         ><span class="textbtn">Home</span></b-button
@@ -63,14 +56,12 @@
       <div class="home">
         <div class="hometext">
           Home
-          <span class="star"
-            >
-          <i
+          <span class="star">
+            <i
               class="far fa-star"
               style="margin-top:8px;
   margin-bottom: 14.1px; font-size:20px;color:rgba(21, 161, 242, 1);"
-            ></i
-          >
+            ></i>
           </span>
         </div>
       </div>
@@ -89,15 +80,30 @@
               <input type="text" placeholder="What's happening?" class="whc" />
             </div>
             <div class="whci">
-
-              <!-- <i class="far fa-image" style="margin-top:10px;"></i>
-              <i class="far fa-calendar-alt" style="margin-left:10px;"></i>
-              <i class="fas fa-chart-bar" style="margin-left:10px;"></i>
-              <i class="far fa-smile" style="margin-left:10px;"></i> -->
-              <button class="toi_but"><i class="far fa-image" style="margin-top:10px;color:rgba(21, 161, 242, 1);font-weight:lighter"></i></button>
-              <button class="toi_but"><i class="far fa-calendar-alt" style="margin-top:10px;color:rgba(21, 161, 242, 1);font-weight:lighter"></i></button>
-              <button class="toi_but"><i class="far fa-chart-bar" style="margin-top:10px;color:rgba(21, 161, 242, 1);font-weight:lighter"></i></button>
-              <button class="toi_but"><i class="far fa-smile" style="margin-top:10px;color:rgba(21, 161, 242, 1);font-weight:lighter"></i></button>
+              <button class="toi_but">
+                <i
+                  class="far fa-image"
+                  style="margin-top:10px;color:rgba(21, 161, 242, 1);font-weight:lighter"
+                ></i>
+              </button>
+              <button class="toi_but">
+                <i
+                  class="far fa-calendar-alt"
+                  style="margin-top:10px;color:rgba(21, 161, 242, 1);font-weight:lighter"
+                ></i>
+              </button>
+              <button class="toi_but">
+                <i
+                  class="far fa-chart-bar"
+                  style="margin-top:10px;color:rgba(21, 161, 242, 1);font-weight:lighter"
+                ></i>
+              </button>
+              <button class="toi_but">
+                <i
+                  class="far fa-smile"
+                  style="margin-top:10px;color:rgba(21, 161, 242, 1);font-weight:lighter"
+                ></i>
+              </button>
               <b-button pill variant="primary" class="tweet_button"
                 >Tweet</b-button
               >
@@ -143,9 +149,13 @@
                 </p>
                 <p class="iconsonfeed" style="margin-left:15px;">
                   <i class="far fa-comment" style="margin-left:20px;"></i> 1
-                  <i class="fas fa-retweet" style="margin-left:100px; font-weight:lighter;"></i> 2
-                  <i class="far fa-heart" style="margin-left:100px;"></i> 3
-                  <i class="far fa-share-square" style="margin-left:90px;"></i> 4
+                  <i
+                    class="fas fa-retweet"
+                    style="margin-left:100px; font-weight:lighter;"
+                  ></i>
+                  2 <i class="far fa-heart" style="margin-left:100px;"></i> 3
+                  <i class="far fa-share-square" style="margin-left:90px;"></i>
+                  4
                 </p>
               </div>
             </div>
@@ -179,14 +189,17 @@
                     8:26 PM · Oct 3, 2020·TweetDeck
                   </p>
                   <p class="iconsonfeed" style="margin-left:15px;">
-
-                    <i class="far fa-comment" style="margin-left:20px;"></i> 55 
-                    <i class="fas fa-retweet" style="margin-left:100px; font-weight:lighter;"></i> 55
-                    <i class="far fa-heart" style="margin-left:90px;"></i> 25
+                    <i class="far fa-comment" style="margin-left:20px;"></i> 55
+                    <i
+                      class="fas fa-retweet"
+                      style="margin-left:100px; font-weight:lighter;"
+                    ></i>
+                    55 <i class="far fa-heart" style="margin-left:90px;"></i> 25
                     <i
                       class="far fa-share-square"
                       style="margin-left:90px;"
-                    ></i> 20
+                    ></i>
+                    20
                   </p>
                 </div>
               </div>
@@ -226,13 +239,19 @@
                       8:26 PM · Oct 3, 2020·TweetDeck
                     </p>
                     <p class="iconsonfeed" style="margin-left:15px;">
-                      <i class="far fa-comment" style="margin-left:20px; font-weight:lighter;"></i> 20 
-                      <i class="fas fa-retweet" style="margin-left:100px;"></i> 20 
+                      <i
+                        class="far fa-comment"
+                        style="margin-left:20px; font-weight:lighter;"
+                      ></i>
+                      20
+                      <i class="fas fa-retweet" style="margin-left:100px;"></i>
+                      20
                       <i class="far fa-heart" style="margin-left:100px;"></i> 2
                       <i
                         class="far fa-share-square"
                         style="margin-left:90px;"
-                      ></i> 22
+                      ></i>
+                      22
                     </p>
                   </div>
                 </div>
@@ -273,16 +292,23 @@
                         8:26 PM · Oct 3, 2020·TweetDeck
                       </p>
                       <p class="iconsonfeed" style="margin-left:15px;">
-                        <i class="far fa-comment" style="margin-left:20px; "></i> 25 
+                        <i
+                          class="far fa-comment"
+                          style="margin-left:20px; "
+                        ></i>
+                        25
                         <i
                           class="fas fa-retweet"
                           style="margin-left:100px; font-weight:lighter;"
-                        ></i> 22 
-                        <i class="far fa-heart" style="margin-left:100px;"></i> 25
+                        ></i>
+                        22
+                        <i class="far fa-heart" style="margin-left:100px;"></i>
+                        25
                         <i
                           class="far fa-share-square"
                           style="margin-left:90px;"
-                        ></i> 25
+                        ></i>
+                        25
                       </p>
                     </div>
                   </div>
@@ -437,18 +463,20 @@
   height: auto;
   border: none;
   position: fixed;
+  margin-left: -200px;
+
 }
 
 .leftside {
   display: flex;
   flex-direction: column;
-  padding-left: 10px;
-  padding-right: 10px;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
   overflow-y: auto;
   margin: auto;
   align-content: flex-start;
   position: fixed;
-  margin-left: 50px;
+  /* margin-left: -50px; */
 }
 .iconbtn {
   display: flex;
@@ -535,7 +563,7 @@
   margin-right: 15px;
 }
 .contentarea {
-  margin-left: 300px;
+  margin-left: 150px;
   height: auto;
   width: auto;
   position: fixed;
@@ -596,7 +624,7 @@
   margin-left: 57px;
   padding-top: 5px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 .cardtext {
   font-size: 18px;
@@ -701,9 +729,6 @@
 .followshowmore:hover {
   background-color: rgba(45, 50, 58, 0.1);
 }
-/* .twitter_button:hover {
-  background-color: rgb(3, 140, 252);
-} */
 .followbtn:hover {
   background-color: rgb(193, 220, 247);
 }
@@ -713,12 +738,8 @@
 .whcibtn:hover {
   background-color: turquoise;
 }
-/*.feed {
-  margin-top: 18px;
-  border: none;
-} */
 .navigate {
-  margin-left: 300px;
+  margin-left: 150px;
   height: 53px;
   position: fixed;
   z-index: 1;
@@ -734,7 +755,7 @@
   background-color: white;
 }
 .ssone {
-  margin-left: 930px;
+  margin-left: 830px;
   width: 350px;
 }
 .sea {
@@ -782,54 +803,24 @@
   font-size: 18px;
 }
 .btn-outline-primary:hover {
-  /* background-color: rgb(245, 248, 250); */
-   background-color: rgb(240, 245, 245);
+  background-color: rgb(240, 245, 245);
   color: rgba(21, 161, 242, 1);
 }
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: rgb(18, 133, 199);
-;
 }
-.t_but{
-  margin-left:-100px;
-  /*  display: flex;
-  float: left;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
-  /* font-size: 50px; */
-  /* font-weight: bold;
-  background-color: rgba(255, 255, 255);
-  border: 0px;
-  height:auto;
-  width:auto; */
-  /* color: black; */
-  /* padding-top:5px; */
-  border:none;
+.t_but {
+  margin-left: -100px;
+  border: none;
 }
-.toi_but{
+.toi_but {
   border-radius: 100%;
-  margin-top:-20px;
-  border:none;
+  margin-top: -20px;
+  border: none;
   background-color: white;
 }
-.toi_but:hover{
-     background-color: rgb(240, 245, 245);
+.toi_but:hover {
+  background-color: rgb(240, 245, 245);
   color: rgba(21, 161, 242, 1);
-
 }
-/* .to_but{
-    border-radius: 100%;
-  border:none;
-  background-color: white;
-
-}
-.to_but:hover{
-     background-color: rgb(240, 245, 245);
-  color: rgba(21, 161, 242, 1);
-  height:30px;
-  width:30px;
-  margin-top:-10px;
-
-} */
-
-
 </style>
